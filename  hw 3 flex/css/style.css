@@ -1,0 +1,126 @@
+body {
+  width: 1280px;
+  margin: 0 auto;
+  font-family: "Roboto", sans-serif;
+}
+
+.main-title {
+  color: black;
+  width: 334px;
+  font-size: 80px;
+}
+.main-title1 {
+  color: #4bcaff;
+  width: 334px;
+  margin-top: 63px;
+  margin-bottom: 40px;
+  font-size: 80px;
+}
+
+.paragraf-conteiner {
+  display: flex;
+  background-color: #35444f;
+  justify-content: center;
+  align-items: center;
+  height: 69px;
+}
+
+.paragraf-conteiner div {
+  display: flex;
+  border-left: solid white 1px;
+  border-right: solid white 1px;
+  box-sizing: border-box;
+  color: aliceblue;
+  padding: 23px 38px;
+  font-size: 24px;
+}
+
+.main-nav {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  background-color: #35444f;
+  margin-bottom: 49px;
+}
+
+.main-nav--item {
+  border-right: 1px solid white;
+}
+.main-nav--item:first-child {
+  border-left: 1px solid white;
+}
+.main-nav--link {
+  color: white;
+  text-decoration: none;
+  padding: 24px 20px 18px 20px;
+  display: block;
+  font-size: 24px;
+}
+.main-nav--link:hover {
+  background-color: #222f3a;
+}
+
+.ul-box {
+  list-style-type: none;
+  padding: 0;
+  justify-content: start;
+  width: 399px;
+  border: black 1px solid;
+  margin: 0;
+}
+.li-item {
+  /* padding: 26px 194px 26px 44px; */
+  width: 100%;
+  padding: 26px 0px;
+  font-size: 27px;
+  color: #495863;
+  padding-left: 44px;
+  box-sizing: border-box;
+}
+.ul-box .li-item:hover {
+  background-color: #dbdbdb;
+  padding-left: 65px;
+}
+
+.display-flex {
+  display: flex;
+  gap: 52px;
+}
+
+.img-wrapper {
+  width: 885px;
+  height: 529px;
+  border: black 1px solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-content {
+  margin-left: 496px;
+  font-size: 18px;
+  margin-bottom: 34px;
+}
+
+.footer-ul {
+  display: flex;
+  background-color: rgba(99, 105, 110, 0.48);
+  align-items: center;
+  width: 1280px;
+  height: 69px;
+}
+
+.footer-li {
+  display: flex;
+  /* justify-content: start; */
+  font-size: 28px;
+  list-style-type: none;
+  padding-left: 40px;
+}
+
+.footer-li:last-child {
+  margin-left: 130px;
+}
+/*   я не знаю как его сделать праильно
+долго промучался ,сдаю как есть   */
